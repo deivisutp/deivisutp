@@ -37,7 +37,7 @@ Working with technology since 2011, 5 years as Systems Developer and 6 years as 
 ### 🤝 &nbsp;Connect with Me
 <br />
 <p align="center">
-<a href="https://linkedin.com/in/deivis-utpadel-2b2b7948"><img src="https://img.shields.io/badge/-Luciano%20Silva%20-0077B5?style=flat-square&logo=Linkedin&logoColor=white"/></a>
+<a href="https://linkedin.com/in/deivis-utpadel-2b2b7948"><img src="https://img.shields.io/badge/-Deivis%20Utpadel%20-0077B5?style=flat-square&logo=Linkedin&logoColor=white"/></a>
 </p>
 
 
