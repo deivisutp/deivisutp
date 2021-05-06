@@ -13,7 +13,6 @@ Working with technology since 2011, 5 years as Systems Developer and 6 years as 
 ![Typescript](https://img.shields.io/badge/-Typescript-3178C6?style=flat&logoColor=fff&logo=typescript)&nbsp;
 ![Node.js](https://img.shields.io/badge/-Node.js-5B9856?style=flat&logoColor=fff&logo=node.js)&nbsp;
 ![ReactJS](https://img.shields.io/badge/-ReactJS-18BCEE?style=flat&logoColor=fff&logo=react)&nbsp;
-![Discord](https://img.shields.io/badge/-Discord-7289DA?style=flat&logo=discord&logoColor=ffffff)\
 ![Styled-Components](https://img.shields.io/badge/-StyledComponents-333333?style=flat&logo=styled-components&logoColor=ffde34)\
 ![Postgres](https://img.shields.io/badge/-Postgres-333333?style=flat&logo=postgresql&logoColor=336791)&nbsp;
 ![Express](https://img.shields.io/badge/-Express-333333?style=flat&logoColor=fff&logo=Express)&nbsp;
