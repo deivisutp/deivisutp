@@ -13,8 +13,10 @@ Working with technology since 2011, 5 years as Systems Developer and 6 years as 
 ![Typescript](https://img.shields.io/badge/-Typescript-3178C6?style=flat&logoColor=fff&logo=typescript)&nbsp;
 ![Node.js](https://img.shields.io/badge/-Node.js-5B9856?style=flat&logoColor=fff&logo=node.js)&nbsp;
 ![ReactJS](https://img.shields.io/badge/-ReactJS-18BCEE?style=flat&logoColor=fff&logo=react)&nbsp;
+![Java](https://img.shields.io/badge/-Java-333333?style=flat&logoColor=fff&logo=java)&nbsp;
 ![Styled-Components](https://img.shields.io/badge/-StyledComponents-333333?style=flat&logo=styled-components&logoColor=ffde34)\
 ![Postgres](https://img.shields.io/badge/-Postgres-333333?style=flat&logo=postgresql&logoColor=336791)&nbsp;
+![Oracle](https://img.shields.io/badge/-Oracle-333333?style=flat&logoColor=fff&logo=oracle)&nbsp;
 ![Express](https://img.shields.io/badge/-Express-333333?style=flat&logoColor=fff&logo=Express)&nbsp;
 <br />
 <br />
@@ -36,22 +38,5 @@ Working with technology since 2011, 5 years as Systems Developer and 6 years as 
 ### 🤝 &nbsp;Connect with Me
 <br />
 <p align="center">
-<a href="https://linkedin.com/in/deivis-utpadel-2b2b7948"><img src="https://img.shields.io/badge/-Deivis%20Utpadel%20-0077B5?style=flat-square&logo=Linkedin&logoColor=white"/></a>
+<a href="https://linkedin.com/in/deivis-utpadel-2b2b7948"><img src="https://img.shields.io/badge/-Luciano%20Silva%20-0077B5?style=flat-square&logo=Linkedin&logoColor=white"/></a>
 </p>
-
-
-
-<!--
-**deivisutp/deivisutp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
