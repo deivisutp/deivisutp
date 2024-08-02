@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 My name's Deivis.
-Working with technology since 2011, 5 years as Systems Developer and 6 years as Systems analyst. Bachelor in Systems Information and MBA in Project Management.
+Working with technology since 2011, 5 years as Systems Developer and 6 years as Systems analyst. Bachelor in Systems Information, MBA in Project Management and MBA in Software Architecture.
 
 ---
 
