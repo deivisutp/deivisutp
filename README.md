@@ -221,6 +221,32 @@ Enabled multiple development teams to run integration tests with a single workfl
 Supports project-specific custom migrations on top of the baseline.
 Local developer experience: one docker-compose up -d command for a fully-provisioned database.
 
+## 8. Dev Assistant Agent
+
+Overview:
+A conversational AI assistant that answers internal engineering questions grounded exclusively in a team's own documentation — not generic training data.
+
+[Link to Repository](https://github.com/deivisutp/personal-agent)
+
+What it does: Engineers query it in natural language ("How do I implement a new ComponentAction?") and receive precise, cited answers drawn directly from the codebase wiki, architecture docs, database models, and business rule documentation. 
+Every response ends with a Sources section listing the exact internal documents used.
+
+How it works:
+
+Hybrid retrieval — Combines BM25 (keyword) and dense vector search (ChromaDB) fused via Reciprocal Rank Fusion, then optionally re-ranked by the LLM for maximum precision.
+
+Smart ingestion — A markdown-structure-aware splitter preserves code fences, strips wiki noise ([[_TOC_]], HTML comments), and tags every chunk with rich metadata (doc_type, layer, language, heading_path) for filtered retrieval.
+
+Flexible knowledge sources — Azure DevOps wikis, local folders, individual files, and raw text are all declared in a single knowledge_manifest.yaml, making the knowledge base easy to maintain and extend.
+
+Persistent sessions — Chat history is stored in SQLite, enabling multi-turn conversations with full context continuity across restarts.
+
+Web UI — HTMX-powered chat interface with real-time SSE streaming, syntax-highlighted code blocks, and a collapsible Sources panel under each answer.
+
+Local-first — Runs entirely on-premise via Ollama. No data leaves the machine.
+
+Stack: Python · FastAPI · LangChain · ChromaDB · BM25Okapi · Ollama · HTMX · SQLite
+
 ---
 
 ## Technical Arsenal
