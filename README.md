@@ -1,7 +1,6 @@
 <div align="center">
   <h1>Hi, I'm Deivis Utpadel</h1>
   <h3>Software Architect</h3>
-  <p>Bridging the gap between legacy enterprise systems and modern AI agents.</p>
   
   <a href="https://www.linkedin.com/in/deivisutp" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white" alt="LinkedIn">
