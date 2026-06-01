@@ -186,6 +186,41 @@ JSOUP for web scraping
 H2 Database for lightweight data persistence
 Swagger/Springfox for API documentation
 
+## 7. Containerized Oracle Database Environment for Integration Testing
+
+Overview:
+A reusable CI/CD infrastructure component that provisions a fully-migrated Oracle XE 21c database (X tables) for automated integration testing of a system based on the defined schema. It is designed to be consumed as a shared GitHub Actions reusable workflow by multiple downstream projects.
+
+[Link to Repository](https://github.com/deivisutp/dynamic-database)
+
+Problem Solved:
+Integration tests for Applications require a realistic Oracle database with proper schema, constraints, indexes, PL/SQL objects, and seed data. Setting this up manually is slow, error-prone, and inconsistent across developer machines and CI pipelines.
+
+Architecture:
+
+Docker Compose orchestration with two containers:
+
+- Oracle XE 21c (gvenzl/oracle-xe:21-slim) - the database engine with health checks and resource limits.
+
+- Alpine Migration Runner - a lightweight sidecar that waits for DB health, then executes ordered SQL migrations and PL/SQL deployments via docker exec.
+
+- 6-phase migration pipeline: schema creation, table creation (1,044 tables), primary keys, foreign keys, indexes, and seed data.
+
+- PL/SQL deployment: packages, functions, and procedures deployed separately via a dedicated script.
+
+- Reusable GitHub Actions workflow that any project can reference to get a fully-provisioned test database without duplicating infrastructure code.
+
+Key Technologies:
+Oracle 21c, Docker Compose, Shell scripting, PL/SQL, GitHub Actions (reusable workflows), CI/CD pipeline design.
+
+Highlights:
+
+Extracted and reproduced a production-scale schemas into portable migration scripts.
+Designed an idempotent, ordered migration system with error tolerance for seed data.
+Enabled multiple development teams to run integration tests with a single workflow reference.
+Supports project-specific custom migrations on top of the baseline.
+Local developer experience: one docker-compose up -d command for a fully-provisioned database.
+
 ---
 
 ## Technical Arsenal
